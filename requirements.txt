@@ -1,0 +1,5 @@
+# For Whisper_final.py
+openai==1.25.1
+
+# For Chatbot_final.py
+openai==0.28.0

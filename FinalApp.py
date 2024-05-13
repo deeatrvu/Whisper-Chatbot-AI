@@ -67,10 +67,10 @@ st.image("https://cdn.dribbble.com/users/214929/screenshots/4967879/ai-loader-op
 if st.button("🎙️ Try Whisper AI", key="whisper_ai"):
     subprocess.Popen(["streamlit", "run", "Whisper_final.py"])
 
-# ChatBot section
-st.markdown('<h2 class="title">ChatBot</h2>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">🤖 Experience our AI-powered conversational agent that can assist you with various tasks and answer your questions 🤖</p>', unsafe_allow_html=True)
-st.image("https://media.licdn.com/dms/image/C5612AQHaxX-jdKUrqg/article-cover_image-shrink_600_2000/0/1566196946786?e=2147483647&v=beta&t=IAZdJ6-ZapLN_4Nvw76uDC4gaoaFaUFVZ3gmWUzY1qc", use_column_width=True, caption="ChatBot")
+# # ChatBot section
+# st.markdown('<h2 class="title">ChatBot</h2>', unsafe_allow_html=True)
+# st.markdown('<p class="subtitle">🤖 Experience our AI-powered conversational agent that can assist you with various tasks and answer your questions 🤖</p>', unsafe_allow_html=True)
+# st.image("https://media.licdn.com/dms/image/C5612AQHaxX-jdKUrqg/article-cover_image-shrink_600_2000/0/1566196946786?e=2147483647&v=beta&t=IAZdJ6-ZapLN_4Nvw76uDC4gaoaFaUFVZ3gmWUzY1qc", use_column_width=True, caption="ChatBot")
 
-if st.button("💬 Start ChatBot", key="chatbot"):
-    subprocess.Popen(["streamlit", "run", "Chatbot_final.py"])
+# if st.button("💬 Start ChatBot", key="chatbot"):
+#     subprocess.Popen(["streamlit", "run", "Chatbot_final.py"])

@@ -26,7 +26,7 @@ else:
     st.success(f"OpenAI version {desired_openai_version} is already installed.")
 
 # Set your OpenAI API key
-api_key = "sk-proj-2Pj9vlSlHfcw8B5JHkOOT3BlbkFJ3GU3Q2wnepA3Ib2GWe8o"
+api_key = "sk-proj-O9H0dnaNUcUqX1FOTDwJT3BlbkFJP3K2CPCGpbeBzxxpQ6ef"
 openai.api_key = api_key
 
 st.title("ChatGPT")

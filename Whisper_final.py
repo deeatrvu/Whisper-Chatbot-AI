@@ -1,5 +1,4 @@
 import streamlit as st
-
 import openai
 import subprocess
 import importlib
@@ -26,13 +25,13 @@ else:
     # OpenAI version matches the desired version
     st.success(f"OpenAI version {desired_openai_version} is already installed.")
 
-api_key = "sk-proj-2Pj9vlSlHfcw8B5JHkOOT3BlbkFJ3GU3Q2wnepA3Ib2GWe8o"
+api_key = "sk-proj-O9H0dnaNUcUqX1FOTDwJT3BlbkFJP3K2CPCGpbeBzxxpQ6ef"
 openai.api_key = api_key
 
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key="sk-proj-2Pj9vlSlHfcw8B5JHkOOT3BlbkFJ3GU3Q2wnepA3Ib2GWe8o")  # Replace "YOUR_API_KEY" with your actual API key
+client = OpenAI(api_key="sk-proj-O9H0dnaNUcUqX1FOTDwJT3BlbkFJP3K2CPCGpbeBzxxpQ6ef")  # Replace "YOUR_API_KEY" with your actual API key
 
 # Title and description
 st.title("🔊 Whisper AI Transcriber & Translator 🌐")
